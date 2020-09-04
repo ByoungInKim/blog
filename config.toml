@@ -1,0 +1,62 @@
+## Basic Configuration
+
+baseurl = "https://shenoybr.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Kenny Kim"
+title = "Kenny Kim"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Keni Kim"
+intro = "Software Engineer"
+description = "새로운걸 좋아하고, 개발을 즐겨하며, 게임을 좋아하고, 앱과 게임을 만듭니다."
+authorimage = "profile.jpg"
+dateformat = "Sep 5, 2020"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "blog,developer,indiegame"
+
+## Social Accounts
+[params.social]
+github = "ByoungInKim"
+instagram = "kimbyoungin"
+linkedin = "byoungin-kim-622b59111"
+twitter = "@keni200"
+email = "jojoman200@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Keni Kim. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "work"
+    identifier = "work"
+    weight = 200
+    url = "/work/"
