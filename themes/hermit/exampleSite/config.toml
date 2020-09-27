@@ -1,9 +1,7 @@
-## Basic Configuration
-
-baseurl = "http://kimkeni.com/"
-languageCode = "ko-kr"
-defaultContentLanguage = "kr"
-title = "Keni Kim"
+baseURL = "https://example.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Hugo Hermit"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -13,10 +11,10 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
-# disqusShortname = "kimkeni-com"
+# disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "Keni Kim"
+  name = "John Doe"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -38,7 +36,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "개발자, 만드는걸 좋아합니다."
+  homeSubtitle = "A minimal and fast theme for Hugo."
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -59,15 +57,15 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/@keni200"
+    url = "https://twitter.com/"
 
   [[params.social]]
     name = "instagram"
-    url = "https://instagram.com/kimbyoungin"
+    url = "https://instagram.com/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/ByoungInKim"
+    url = "https://github.com/"
 
 [menu]
 
@@ -75,3 +73,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     name = "Posts"
     url = "posts/"
     weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-hugo/"
+    weight = 20
