@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "http://kimkeni.com/"
+baseurl = "https://kimkeni.com/"
 languageCode = "ko-kr"
 defaultContentLanguage = "kr"
 title = "Keni Kim"
